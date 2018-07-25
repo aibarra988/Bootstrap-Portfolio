@@ -1,77 +1,188 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Load Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/about.css">
     <title>Abraham Ibarra | About Me</title>
 </head>
+
 <body>
-    <!-- <header> -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Abraham Ibarra</a>
-            
-            <div>
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Portfolio</a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
+    <!-- Start Nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Abraham Ibarra</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End Nav -->
+    <div class="container border border-white">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="page-header">
+                    <h1 class="section-name">About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="section-text">
+                            <img id="my-mug" height="250" width="200" src="assets/images/abe.png" alt="Placeholder" class="img-thumbnail">
+                            My name is Abraham Ibarra. I am from El Paso, TX and I've been living in Austin since 2012. Some of my favorite hobbies are
+                            tinkering with technology, skateboarding, and cooking. I love going to shows in town and traveling
+                            to national parks across the US.
+                        </p>
+
+                        <p>
+                            As far as I can remember, I've been fascinated by computers, video games and problem solving. I knew my calling was to be
+                            a developer. After serving in the US Navy for four years, I've gained five years in the IT industry;
+                            three of which I have been a software developer at CA Technologies working on the IDaaS platform
+                            CA Identity Service.
+                        </p>
+
+                        <p>
+                            During my time at CA Technologies, I was left hungry to keep growing as a software engineer. My goal is to always keep working
+                            towards writing clean and useful code while keeping in mind the hardships and lessons that come
+                            from working on a dense codebase with brittle tests. One big lesson I learned: always write tests.
+                        </p>
+
+                        <p>
+                            I enjoyed being able to contribute to working in all of the components of our tech stack and participate in designing and
+                            developing new features. I made the time to sharpen my skills and grow my network by going to
+                            The Coding Boot Camp at the University of Texas so that I could feel more confident when interviewing
+                            for my next position.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </nav>
-    <!-- </header> -->
-
-    <div id="main-container" class="container">
-        <div class="jumbotron">
-            <!-- header -->
-            <h1 class="section-name">About Me </h1>
-
-            <!-- bio-text and bio-image -->
-            <p class="section-text">
-                <img id="my-mug" width="200"src="assets/images/abe.png" alt="A picture of Abraham">
-                My name is Abraham Ibarra. I am from El Paso, TX and 
-                I've been living in Austin since 2012. Some of my 
-                favorite hobbies are tinkering with technology, 
-                skateboarding, and cooking. I love going to shows in 
-                town and traveling to national parks across the US. 
-            </p>
-
-            <p>
-                As far as I can remember, I've been fascinated by 
-                computers, video games and problem solving. I knew my calling
-                was to be a developer. After 
-                serving in the US Navy for four years, I've gained five 
-                years in the IT industry; three of which I have been a 
-                software developer at CA Technologies working on the IDaaS 
-                platform CA Identity Service. 
-            </p>
-
-            <p>
-                During my time at CA Technologies, I was left hungry to keep 
-                growing as a software engineer. My goal
-                is to always keep working towards writing clean and useful code 
-                while keeping in mind the hardships and lessons that come from working on 
-                a dense codebase with brittle tests. One big lesson I learned: always write
-                tests. 
-            </p>
-                
-            <p>
-                I enjoyed being able to contribute 
-                to working in all of the components of our tech stack and 
-                participate in designing and developing new features.
-                I made the time to sharpen my skills and grow my network 
-                by going to The Coding Boot Camp at the University of Texas 
-                so that I could feel more confident when interviewing for 
-                my next position. 
-            </p>
+            <!--Create Card taking up 4 Columns-->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Check me out online</h5>
+                        <a id="git" href="#">
+                            <i class="fab fa-github"></i>                        
+                        </a>
+                        <a id="npm" href="#">
+                            <i class="fab fa-npm"></i>
+                        </a>
+                        <a id="linkedin" href="#">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a id="twitter" href="#">
+                            <i class="fab fa-twitter-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
     <footer class="footer">
-        <div class="container">
-            <span class="text-muted">Copyright &copy</span>
-        </div>
+        Copyright &copy;
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
+
+
+
+
+
+
+
+
+
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Abraham Ibarra</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Portfolio</a>
+            <a class="nav-item nav-link" href="#">Contact</a>
+        </div>
+    </div>
+    </nav>
+
+    <div id="main-container" class="container">
+    <div class="jumbotron">
+        <!-- header -->
+        <!-- <h1 class="section-name">About Me </h1> -->
+
+        <!-- bio-text and bio-image -->
+        <!-- <p class="section-text">
+            <img id="my-mug" width="200"src="assets/images/abe.png" alt="A picture of Abraham">
+            My name is Abraham Ibarra. I am from El Paso, TX and 
+            I've been living in Austin since 2012. Some of my 
+            favorite hobbies are tinkering with technology, 
+            skateboarding, and cooking. I love going to shows in 
+            town and traveling to national parks across the US. 
+        </p>
+
+        <p>
+            As far as I can remember, I've been fascinated by 
+            computers, video games and problem solving. I knew my calling
+            was to be a developer. After 
+            serving in the US Navy for four years, I've gained five 
+            years in the IT industry; three of which I have been a 
+            software developer at CA Technologies working on the IDaaS 
+            platform CA Identity Service. 
+        </p>
+
+        <p>
+            During my time at CA Technologies, I was left hungry to keep 
+            growing as a software engineer. My goal
+            is to always keep working towards writing clean and useful code 
+            while keeping in mind the hardships and lessons that come from working on 
+            a dense codebase with brittle tests. One big lesson I learned: always write
+            tests. 
+        </p>
+            
+        <p>
+            I enjoyed being able to contribute 
+            to working in all of the components of our tech stack and 
+            participate in designing and developing new features.
+            I made the time to sharpen my skills and grow my network 
+            by going to The Coding Boot Camp at the University of Texas 
+            so that I could feel more confident when interviewing for 
+            my next position. 
+        </p>
+    </div>
+    </div>
+    <footer class="footer">
+    <div class="container">
+        <span class="text-muted">Copyright &copy</span> 
+    </div>
+    </footer> -->

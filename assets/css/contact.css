@@ -1,0 +1,22 @@
+form {
+    margin-top: 2%;
+}
+
+input[type="text"] {
+    height: 2em;
+    width: 100%;
+    font-size: 12px;
+    padding-left: 1em;
+    margin-top: 1%;
+    margin-bottom: 1.5%;
+}
+
+textarea[name="message"] {
+    width: 100%;
+    margin-top: 1%;
+}
+
+.btn {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
